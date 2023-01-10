@@ -233,9 +233,17 @@ body {
   justify-content: space-between;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex img {
+  width: calc((100% - 180px) / 3);
+}
+
 img {
-  height: auto;
-  width: auto;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 @property --num {
